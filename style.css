@@ -73,3 +73,27 @@ img {
 }
 
 /* LAYOUT RESPONSIVE */
+/* LEZIONI*/
+@media screen and (max-width: 420px) {
+  .container .row {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 5px;
+    float: none;
+  }
+
+  /* STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    padding: 10px 5px;
+  }
+}
