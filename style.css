@@ -74,17 +74,8 @@ img {
 
 /* LAYOUT RESPONSIVE */
 /* LEZIONI*/
-
-@media screen and (max-width: 768px) and (min-width: 421px) {
-  .container .row {
-    width: 100%;
-    /* margin-top: 50px; */
-    background-color: green;
-  }
-}
-
 @media screen and (max-width: 420px) {
-  .container .row {
+ .container .row {
     width: 100%;
     margin-top: 50px;
   }
@@ -104,5 +95,27 @@ img {
     float: none;
     width: 100%;
     padding: 10px 5px;
+  }
+}
+
+/* TABLET */
+@media screen and (max-width: 833px) and (min-width: 420px) {
+  .container .row {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    float: none;
+  }
+  /* STEPS */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    padding-bottom: 12px;
   }
 }
