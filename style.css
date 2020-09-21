@@ -74,6 +74,15 @@ img {
 
 /* LAYOUT RESPONSIVE */
 /* LEZIONI*/
+
+@media screen and (max-width: 768px) and (min-width: 421px) {
+  .container .row {
+    width: 100%;
+    /* margin-top: 50px; */
+    background-color: green;
+  }
+}
+
 @media screen and (max-width: 420px) {
   .container .row {
     width: 100%;
